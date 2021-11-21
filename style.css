@@ -1,0 +1,50 @@
+.textarea{
+	resize: none;
+	width: 66%;
+}
+.input_info{
+	margin-top: 2%;
+	margin-left: 40%;
+	margin-bottom: 1%;
+}
+.input{
+	margin-top: 2%;
+	margin-left: 25%;
+	margin-bottom: 1%;
+	font-size: 18px;
+}
+button{
+	margin-left: 35%;
+	height: 50px;
+	width: 30%;
+}
+.button{
+	font-size: 18px;
+}
+output{
+	font-size: 18px;
+	border-radius: 10px;
+}
+table{
+	font-size: 18px;
+}
+td{
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+.output{
+	margin-top: 2%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+p{
+	font-size: 18px;
+}
+.out{
+	font-size: 18px;
+}
+.td_out2{
+	width: 68%;
+}

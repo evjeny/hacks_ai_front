@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="code.js"></script>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<title>EVA</title>
+</head>
+<body class="p-3 mb-2 bg-body text-dark">
+	<h3 class="input_info">Определение категории</h3>
+	<div class="input"><textarea placeholder="Введите наименование товара" id="text" class="textarea" rows="10" onclick="changeBorder"></textarea></div>
+	<button class="btn btn-primary" onclick="classify(document.getElementById('text').value)"><span class="button">Узнать код</span></button>
+	<div>
+		<div class="output">
+			<p>
+				<table id="table">
+					<tr>
+						<td class="td_out">Категория товара</td>
+						<td class="td_out2">Описание категории товара</td>
+						<td class="td_out3">Вероятность правильности</td>
+					</tr>
+				</table>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
